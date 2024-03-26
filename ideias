@@ -1,0 +1,64 @@
+# Curso de JavaScript - Mapa Mental
+
+- Introdução ao JavaScript:
+  - Conceitos básicos de programação
+  - Sintaxe e estrutura do código
+  - Variáveis, tipos de dados e operadores
+
+- Fundamentos do JavaScript:
+  - Estruturas de controle de fluxo
+  - Funções e escopo de variáveis
+  - Manipulação de arrays e objetos
+
+- Programação Orientada a Objetos em JavaScript:
+  - Criação de classes e objetos
+  - Herança e polimorfismo
+  - Encapsulamento e abstração
+
+- Manipulação de DOM:
+  - Acesso e manipulação de elementos HTML
+  - Eventos e interatividade em páginas web
+
+- Assincronismo em JavaScript:
+  - Callbacks, Promises e async/await
+  - Requisições HTTP e manipulação de APIs
+
+- Desenvolvimento de Aplicações Web:
+  - Integração com frameworks populares (ex: React, Angular)
+  - Construção de interfaces de usuário dinâmicas
+  - Gerenciamento de estado e roteamento
+
+- Boas Práticas de Programação JavaScript:
+  - Organização de código
+  - Tratamento de erros
+  - Testes unitários
+
+- Ferramentas e Ecossistema JavaScript:
+  - Gerenciadores de pacotes (ex: npm, yarn)
+  - Task runners (ex: Gulp, Grunt)
+  - Transpiladores (ex: Babel)
+
+- Recursos Avançados do JavaScript:
+  - Eventos avançados
+  - Web Storage (localStorage, sessionStorage)
+  - Trabalhando com canvas
+
+- Segurança em JavaScript:
+  - Cross-Site Scripting (XSS)
+  - Proteção contra ataques de injeção
+  - Melhores práticas de criptografia
+
+- Performance e Otimização:
+  - Carregamento assíncrono de recursos
+  - Otimização do tempo de execução
+  - Redução de tamanho de arquivos
+
+- Debugging e Ferramentas de Desenvolvimento:
+  - Console e log de depuração
+  - Inspeção de elementos e rede
+  - Profiling de código
+
+- Futuro do JavaScript:
+  - ECMAScript e suas versões
+  - Novas funcionalidades e sintaxe
+  - Tendências e evolução da linguagem

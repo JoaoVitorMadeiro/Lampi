@@ -1,0 +1,49 @@
+
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lampi</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/theme.css">
+</head>
+<body>
+            <header class="header">
+                <img class="logo" src="./img/lampi.jpeg" alt="Logo">
+                <ul class="nav">
+                    <li class="nav-item">
+                     <button><a href="./LoginSign.html">Cadastro</a></button>
+                    </button> 
+                    </li>
+                </ul>
+            </header>
+            <div class="container">
+                <form class="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+                    <label for="file">Selecione o arquivo:</label>
+                    <input type="file" id="file" name="file" required><br>
+                    <input type="submit" value="Enviar">
+                </form>
+                <form name="form_main">
+                    <label for="add">Tarefa: </label> 
+                    <input type="text" name=".todoInput" id="todo" /> <br />
+                    <button type="button" onclick="add()">Adicionar</button>
+                  </form>
+                  <fieldset>
+                    <legend>Tarefas:</legend>
+                    <ul>
+                      <li>Limpar casa</li>
+                      <li>Outras</li>
+                    </ul>
+                  </fieldset>
+                  <div class="cronograma">
+
+                  </div>
+            </div>
+
+            <footer class="rodape">
+                <p>© 2024 Lampi. Todos os direitos reservados.</p>
+            </footer>
+
+            
+</body>
+</html>

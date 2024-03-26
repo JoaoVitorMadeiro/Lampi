@@ -1,0 +1,117 @@
+@import url(./theme.css);
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.header {
+    background-color:  #144B52;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 50px;
+    justify-content: left;
+    align-items: left;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.nav-item {
+    margin: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    list-style: none;
+}
+.nav-item button{
+    background-color: #144B52;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    float: left;
+    margin: 10px;
+}
+.nav-item a {
+    text-decoration: none;
+    color: 000;
+}
+.to_do_list {
+    list-style: none;
+}
+.to_do_list button{
+    background-color: #144B52;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.to_do_list a{
+    text-decoration: none;
+    color: #000;
+}
+.upload button{
+    background-color: #144B52;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+
+}
+.upload a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: black;
+}
+a:link{
+    color: black;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%; 
+    background-color: var(--tertiary-color);
+}
+.upload-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50%; 
+    background-color: var(--secondary-color);
+    outline: #000;
+    width: 100%;
+}
+.rodape{
+    background-color: #144B52;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 14px;
+}
